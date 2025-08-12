@@ -1,0 +1,38 @@
+:root {
+    --color-bg: #121212;
+    --color-surface: #1e1e1e;
+    --color-primary: #4f9cff;
+    --color-primary-hover: #6ab0ff;
+    --color-text: #e5e5e5;
+    --color-muted: #a1a1a1;
+    --color-border: #2a2a2a;
+    --radius: 10px;
+    --transition: 0.2s ease-in-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-primary-hover);
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
